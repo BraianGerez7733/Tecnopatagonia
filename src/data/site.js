@@ -4,7 +4,7 @@ import galleryTwo from '../assets/images/gallery-02.svg'
 import galleryThree from '../assets/images/gallery-03.svg'
 import galleryFour from '../assets/images/gallery-04.svg'
 
-const whatsappBase = 'https://wa.me/5492964537048'
+const whatsappBase = 'https://wa.me/5492964452465'
 
 const createWhatsappLink = (message) =>
   `${whatsappBase}?text=${encodeURIComponent(message)}`
@@ -16,7 +16,7 @@ export const company = {
     'Empresa local de Río Grande dedicada a movimientos de suelo, nivelación de terrenos, rellenos, compactación, venta de tierra negra, venta de áridos, fabricación y colocación de adoquines, construcción y mantenimiento general. Atención directa, trabajo responsable y presupuesto sin compromiso.',
   location: 'Río Grande, Tierra del Fuego, Argentina',
   address: 'Elcano 863, frente a la estación YPF, Río Grande, Tierra del Fuego',
-  phones: ['(2964) 452-465', '(2964) 537-048'],
+  phones: ['(2964) 452-465'],
   mapsEmbed:
     'https://www.google.com/maps?q=Elcano%20863%2C%20R%C3%ADo%20Grande%2C%20Tierra%20del%20Fuego%2C%20Argentina&z=15&output=embed',
   social: {
