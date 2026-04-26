@@ -10,12 +10,24 @@ import { company, heroVisual } from '../data/site'
     id="inicio"
     class="section-anchor relative overflow-hidden pb-10 pt-28 sm:pt-32 lg:pb-16"
   >
-    <div class="absolute inset-x-0 top-0 h-[82%] hero-mesh"></div>
+    <video
+      class="absolute inset-0 h-full w-full object-cover"
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="metadata"
+      aria-hidden="true"
+    >
+      <source src="/screen-20260425-230912~3.mp4" type="video/mp4" />
+    </video>
+    <div class="absolute inset-0 bg-slate-950/45"></div>
+    <div class="absolute inset-x-0 top-0 h-[82%] hero-mesh opacity-35"></div>
     <div class="absolute right-0 top-32 hidden h-56 w-56 rounded-full bg-accent/25 blur-3xl lg:block"></div>
     <div class="container-shell relative">
       <div class="grid items-center gap-12 lg:grid-cols-[1.08fr_0.92fr]">
         <RevealOnScroll>
-          <div class="max-w-3xl text-white">
+          <div class="max-w-3xl text-white drop-shadow-[0_4px_18px_rgba(0,0,0,0.55)]">
             <p class="text-sm font-semibold uppercase tracking-[0.28em] text-accent">
               Río Grande, Tierra del Fuego
             </p>
