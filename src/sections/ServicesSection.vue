@@ -25,11 +25,11 @@ const serviceGalleries = {
     description: 'Deslizá o tocá las flechas para ver las fotos disponibles.',
     images: [
       {
-        src: '/aridos-1.jpg',
+        src: '/img_2_1777174504595.jpg',
         alt: 'Bolsón de material árido de Tecnopatagonia',
       },
       {
-        src: '/aridos-2.jpg',
+        src: '/img_3_1777174519586.jpg',
         alt: 'Bolsón con piedra y áridos para obra',
       },
     ],
